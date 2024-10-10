@@ -7,11 +7,11 @@ function Home () {
         <div className='home'>
             <div className='fotoAndName'>
 
-                <div>
-                <img src={myPhoto} alt='Una foto de mí' />
+                <div className='photoBox'>
+                <img src={myPhoto} alt='Una foto de mí' className='myPhoto' />
                 </div>
 
-                <div>
+                <div className='textBox'>
                 <p>¡Hola!</p>
                 <p>Soy Lorena Rodríguez.</p>
                 </div>
