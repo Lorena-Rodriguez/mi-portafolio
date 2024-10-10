@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    height: 15%;
+    background-color: #EDE2DA;
+}
+
+.description-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.image-icon-navbar{
+    width: 35px;
+    height: auto;
+}
+
+.buttons-navbar{
+    width: 155px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: #F6BDB4 ;
+    border: none;
+}
+
