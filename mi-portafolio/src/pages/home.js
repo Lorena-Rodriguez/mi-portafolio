@@ -1,13 +1,11 @@
 import React from 'react';
 import '../styles/home.css';
-import Navbar from '../components/navbar';
 import myPhoto from '../assets/foto.svg'
 
 function Home () {
     return (
 
             <div className='home'>
-            <Navbar/>
                 <div className='fotoAndName'>
 
                     <div className='photoBox'>
@@ -31,7 +29,7 @@ function Home () {
                 tellus bibendum, placerat neque at, elementum leo. Fusce id justo 
                     </p>
                 </div>
-
+                
             </div>
     );
 };
