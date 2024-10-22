@@ -2,13 +2,19 @@
     width: 100%;
     height: 15%;
     background-color: #EDE2DA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 4%;
+    padding-top: 2.5%;
 }
 
 .description-text{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.3em;
+    color: #90967C
 }
 
 .image-icon-navbar{
@@ -24,3 +30,18 @@
     border: none;
 }
 
+.description-text-box {
+    padding-right: 40%;
+    padding-left: 5%;
+}
+
+.icon-home {
+    padding-right: 1%;
+}
+
+.buttons-navbar-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1%;
+}
