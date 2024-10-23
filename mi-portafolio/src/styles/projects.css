@@ -1,0 +1,16 @@
+.projects-container {
+    width: 100%;
+    height: 1022px;
+    background-color: #90967C;
+}
+
+.title {
+    padding-top: 5%;
+}
+.projects-line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10%;
+}
