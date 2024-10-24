@@ -6,11 +6,54 @@
 
 .title {
     padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-.projects-line1 {
+
+.title-text{
+    font-weight: 400;
+    font-size: 3em;
+}
+.projects-line1, .projects-line2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-top: 10%;
+    padding-top: 5%;
+}
+
+.galeria-arte,
+.oviva,
+.ruleta,
+.marketplace,
+.to-do-list,
+.landing,
+.administrador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-do-list {
+    padding-left: 10%;
+}
+
+.administrador{
+padding-right: 10%;
+}
+
+.text-tittle-project{
+    padding-bottom: 4%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #393941;
+}
+
+.img-icongithub{
+    width: 22%;
+    padding-top: 8%;
 }
