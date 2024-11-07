@@ -17,11 +17,39 @@
     margin-right: 10%;
 }
 
+.fotoNameButtons{
+    display: flex;
+    margin-left: 20%;
+}
+
+.buttonsText{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-home-box {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    gap: 1%;
+}
+
+.buttons-home{
+    width: 155px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 12px;
+    background-color: #F6BDB4 ;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
 .textBox{
     font-family: "Mooli", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3em ;
+    margin-top: 15%;
 }
 
 .fotoAndName{

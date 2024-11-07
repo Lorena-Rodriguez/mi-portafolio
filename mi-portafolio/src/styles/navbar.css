@@ -17,17 +17,28 @@
     color: #90967C
 }
 
+
 .image-icon-navbar{
     width: 35px;
     height: auto;
 }
 
+.buttons-navbar-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1%;
+}
+
 .buttons-navbar{
     width: 155px;
     height: 36px;
+    line-height: 36px;
     border-radius: 12px;
     background-color: #F6BDB4 ;
     border: none;
+    text-align: center;
+    text-decoration: none;
 }
 
 .description-text-box {
@@ -39,9 +50,4 @@
     padding-right: 1%;
 }
 
-.buttons-navbar-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1%;
-}
+

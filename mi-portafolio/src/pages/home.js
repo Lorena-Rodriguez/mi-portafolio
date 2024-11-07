@@ -6,10 +6,19 @@ function Home () {
     return (
 
             <div className='home'>
-                <div className='fotoAndName'>
+                <div className='fotoNameButtons'>
 
                     <div className='photoBox'>
                     <img src={myPhoto} alt='Una foto de mí' className='myPhoto' />
+                    </div>
+
+                    <div className='buttonsText'>
+
+                    <div className='buttons-home-box'>
+                    <a href='https://www.linkedin.com/in/lorenarodriguezcortes/' className='buttons-home'  target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href='https://github.com/Lorena-Rodriguez' className='buttons-home'  target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href='/cv2024.pdf' className='buttons-home'  target="_blank" rel="noopener noreferrer">CV</a>
+                    <a href='' className='buttons-home' target="_blank" rel="noopener noreferrer">Contacto</a>
                     </div>
 
                     <div className='textBox'>
@@ -17,6 +26,8 @@ function Home () {
                     <p>Soy Lorena Rodríguez.</p>
                     </div>
                     
+                    </div>
+
                 </div>
 
                 <div className='presentation'>
