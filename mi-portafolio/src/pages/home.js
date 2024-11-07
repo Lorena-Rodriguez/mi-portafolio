@@ -5,7 +5,7 @@ import myPhoto from '../assets/foto.svg'
 function Home () {
     return (
 
-            <div className='home'>
+            <div className='home' id='home'>
                 <div className='fotoNameButtons'>
 
                     <div className='photoBox'>

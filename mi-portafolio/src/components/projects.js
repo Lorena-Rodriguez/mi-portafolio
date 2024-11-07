@@ -11,7 +11,7 @@ import githubicon from '../assets/github.svg';
 
 function Projects () {
     return (
-    <div className='projects-container'>
+    <div className='projects-container' id='project'>
 
         <div className='title'>
             <p className='title-text'>Proyectos Personales</p>
