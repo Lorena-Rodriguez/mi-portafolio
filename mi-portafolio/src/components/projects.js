@@ -21,25 +21,33 @@ function Projects () {
             <div className='galeria-arte'>
                 <p className='text-tittle-project'>Galería de Arte</p>
                 <img src={galeria} alt='galeria de arte'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Galeria-del-Coleccionista' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
             <div className='oviva'>
                 <p className='text-tittle-project'>Oviva</p>
                 <img src={oviva} alt='galeria de arte'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Holistic-Ovaries' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
             <div className='ruleta'>
                 <p className='text-tittle-project'>Ruleta de la Fortuna</p>
                 <img src={ruleta} alt='galeria de arte'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Wheel-Of-Doom' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
             <div className='marketplace'>
                 <p className='text-tittle-project'>Marketplace</p>
                 <img src={market} alt='galeria de arte'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/MarketPlaceRinconRural' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon}  alt='github icono' />
+                </a>
             </div>
 
 
@@ -48,21 +56,27 @@ function Projects () {
         <div className='projects-line2'>
 
             <div className='to-do-list'>
-                <p className='text-tittle-project'>Lista de Tareas</p>
+                <p className='text-tittle-project'>To Do List</p>
                 <img src={todolist} alt='Lista de Tareas'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Practica-TODO' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
             <div className='landing'>
                 <p className='text-tittle-project'>Landing Page</p>
                 <img src={landing} alt='Landing Page'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Grupo5' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
             <div className='administrador'>
                 <p className='text-tittle-project'>Administrador de Listas</p>
                 <img src={listas} alt='Administrador de Listas'/>
-                <img src={githubicon} className='img-icongithub' alt='github icono' />
+                <a href='https://github.com/Lorena-Rodriguez/Proyecto_3' className='img-icongithub' target="_blank" rel="noopener noreferrer">
+                <img src={githubicon} alt='github icono' />
+                </a>
             </div>
 
         </div>
