@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Projects from "./components/projects";
 import Stacks from "./components/stacks";
-
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Home />
       <Projects/>
       <Stacks/>
+      <Experience/>
     </div>
   );
 }
