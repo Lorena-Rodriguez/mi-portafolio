@@ -1,0 +1,32 @@
+.stacks-container {
+    background-color: #F6BDB4;
+}
+
+.stackstitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.stacks-text {
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.icons {
+    padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.imgicon {
+    width: 7%;
+}
