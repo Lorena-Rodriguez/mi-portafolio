@@ -17,8 +17,8 @@ function Navbar () {
 
     <div className='buttons-navbar-box'>
         <a href='#project' className='buttons-navbar'  rel="noopener noreferrer">Proyectos</a>
-        <a href='' className='buttons-navbar'  rel="noopener noreferrer">Stacks</a>
-        <a href='' className='buttons-navbar'   rel="noopener noreferrer">Experiencia</a>
+        <a href='#stacks' className='buttons-navbar'  rel="noopener noreferrer">Stacks</a>
+        <a href='#experience' className='buttons-navbar'   rel="noopener noreferrer">Experiencia</a>
         <a href='' className='buttons-navbar' rel="noopener noreferrer">Formación</a>
     </div>
 

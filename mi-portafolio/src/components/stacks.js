@@ -8,7 +8,7 @@ import react from '../assets/react.svg';
 
 function Stacks () {
     return (
-<div className='stacks-container'>
+<div className='stacks-container' id = 'stacks'>
     <div className='stackstitle'>
         <p className='stacks-text'>Habilidades Técnicas</p>
     </div>

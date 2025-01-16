@@ -4,7 +4,7 @@ import timeline from '../assets/timeline.svg';
 function Experience () {
     return (
 
-<div className='experiencecontainer'>
+<div className='experiencecontainer' id = 'experience'>
     <div className='titleexperience'>
         <p className='title-text-experience'>Experiencia Laboral</p>
     </div>
