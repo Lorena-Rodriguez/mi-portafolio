@@ -3,18 +3,24 @@ import '../styles/education.css'
 function Education () {
     return (
 <>
-<div className='educationContainer'>
+<div className='educationcontainer'>
 
-        <div>
-            <p>
+        <div >
+            <div className='titleeducationcontainer'> 
+            <p className='title-text-education'>
                 Formación Reglada
             </p>
+            </div>
+
+            <div className='centralblockeducation'>
             <p>
             Filosofía - Universidad de Málaga - octubre 2001 / junio 2005 | Estudios inacabados (4 de 5 años).
             </p>
             <p>
             Inglés: B1 - Cambridge - septiembre 2020
             </p>
+            </div>
+
         </div>
 
         <div>
@@ -23,12 +29,12 @@ function Education () {
             </p>
         </div>
 
-        <div>
+        <div >
             <p>
             JavaScript Moderno | En curso.
             </p>
             <p>
-                Curso de Udemy de Javascript, actualizado a 2025.
+            Curso de Udemy de Javascript, actualizado a 2025.
             </p>
             <p>
             Desarrollo Web
