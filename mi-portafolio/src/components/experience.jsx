@@ -20,10 +20,10 @@ function Experience () {
             <p>Mapeo de código en lenguaje C#, preparación de documentación para el cliente. Power BI</p>
             </p>
 
-            <p className='blocktext'>
+            {/* <p className='blocktext'>
             <span className='bold-text'>2014 - 2024 | Otros:</span>
             <p>Estudio de Oposiciones, Teleoperadora, telemarketing.</p> 
-            </p>
+            </p> */}
 
             <p className='blocktext'>
             <span className='bold-text'>2013 - 2014 | Grupo Vértice | Autora de Contenidos</span>
@@ -38,7 +38,7 @@ function Experience () {
 
             <p className='blocktext'>
             <span className='bold-text'>2008 - 2011 | Ingenia | Productora de Contenido Multimedia</span>
-            <p>Producción de cursos diseñados para distintos proyectos (Administración, legislativos,
+            <p>Producción y diseño de cursos para distintos proyectos (Administración, legislativos,
             topografía, puericultura, etc.) realizados en HTML, CSS y Flash.</p>
             </p>
         </div>
