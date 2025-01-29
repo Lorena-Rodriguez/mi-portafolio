@@ -13,8 +13,8 @@ function Education () {
             </div>
 
             <div className='centralblockeducation'>
-            <p>
-            Bachillerato Humanidades - I.E.S. Jardines de Puerta Oscura - octubre 1995 / mayo 2005
+            <p className='secondtexteducation'>
+            Bachillerato Humanidades - I.E.S. Jardines de Puerta Oscura
             </p>
             {/* <p>
             Inglés: B1 - Cambridge - septiembre 2020
@@ -43,7 +43,7 @@ function Education () {
                 </div>
 
                 <div>
-                    <h4>
+                    <h4 className='thirdtitlecourses'>
                     BOOTCAMP Desarrollo Web Fullstack | 2024 - 850 horas
                     </h4>
                         <p>
@@ -52,7 +52,7 @@ function Education () {
                 </div>
 
                 <div>
-                    <h4>
+                    <h4 className='thirdtitlecourses'>
                     Python | 2024 - 200 horas
                     </h4>
                         <p>
@@ -61,7 +61,7 @@ function Education () {
                 </div>
 
                 <div>
-                    <h4>
+                    <h4 className='thirdtitlecourses'>
                     Curso Introducción a la Programación | 200 horas
                     </h4>
                         <p>
@@ -74,7 +74,7 @@ function Education () {
                 <h3 className='secondtitlecourses'>
                 Diseño Web
                 </h3>
-                    <h4>
+                    <h4 className='thirdtitlecourses'>
                     Diseño Web y Multimedia | 384 horas
                     </h4>
                         <p>
@@ -86,7 +86,7 @@ function Education () {
                 <p className='secondtitlecourses'>
                 Diseño Gráfico
                 </p>
-                    <h4>
+                    <h4 className='thirdtitlecourses'>
                     Técnico Auxiliar en Diseño Industrial | 650 horas
                     </h4>
                         <p>
@@ -95,7 +95,7 @@ function Education () {
             </div>
 
             <div> 
-                <h4>Técnico Auxiliar en Diseño Gráfico | 604 horas
+                <h4 className='thirdtitlecourses'>Técnico Auxiliar en Diseño Gráfico | 604 horas
                 </h4>
                     <p>
                     Curso dedicado al conocimiento del lenguaje y diseño gráfico, procesos de producción gráfica, Photoshop, Illustrator, Indesign.

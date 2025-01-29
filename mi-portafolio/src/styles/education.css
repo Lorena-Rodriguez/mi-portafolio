@@ -24,6 +24,9 @@
     justify-content: center;
 }
 
+.secondtexteducation {
+    padding-top: 2%;
+}
 .coursesall {
     display: flex;
     flex-direction: row;
@@ -40,4 +43,9 @@
     color: #EDE2DA;
     padding-bottom: 2%;
     padding-top: 2%;
+}
+
+.thirdtitlecourses {
+    font-weight: 500;
+    padding-top: 1%;
 }
