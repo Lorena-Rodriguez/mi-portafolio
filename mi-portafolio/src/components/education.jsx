@@ -14,11 +14,11 @@ function Education () {
 
             <div className='centralblockeducation'>
             <p className='secondtexteducation'>
-            Bachillerato Humanidades - I.E.S. Jardines de Puerta Oscura
+            Bachillerato Humanidades - I.E.S. Jardines de Puerta Oscura - mayo 2000
             </p>
-            {/* <p>
-            Inglés: B1 - Cambridge - septiembre 2020
-            </p> */}
+            <p className='secondtexteducation'>
+            Inglés: B1 - Cambridge Assessment - septiembre 2020
+            </p>
             </div>
 
         </div>

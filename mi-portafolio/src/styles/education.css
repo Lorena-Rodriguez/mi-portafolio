@@ -4,8 +4,16 @@
     background-color: #90967C;
 }
 
-.titleeducationcontainer, .titlecoursescontainer {
+.titleeducationcontainer  {
     padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlecoursescontainer {
+    padding-top: 3%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,13 +27,13 @@
 
 .centralblockeducation {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .secondtexteducation {
     padding-top: 2%;
+    padding-left: 37%;
 }
 .coursesall {
     display: flex;
