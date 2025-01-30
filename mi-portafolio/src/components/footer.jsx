@@ -7,21 +7,21 @@ function Footer () {
 
     return (
         <div className='footer'>
-            <div>
-            <p>
+            <div className='footertext'>
+            <p className='finaltextparraf'>
                 •  Desarrolladora web especializada en Frontend  •
             </p>
             <p>
                 Disponibilidad Inmediata
             </p>
             </div>
-            <div>
-                <img src={LinkedIn} />
-                <img src={FooterGitHub} />
+            <div className='logosfooter'>
+                <a href='https://www.linkedin.com/in/lorenarodriguezcortes/' target="_blank" rel="noopener noreferrer"> <img src={LinkedIn} /></a>
+                <a href='https://github.com/Lorena-Rodriguez' target="_blank" rel="noopener noreferrer"> <img src={FooterGitHub} /></a>
                 <img src={Contact} />
             </div>
-            <div>
-                <p>
+            <div className='rightstextfooter'>
+                <p className='rightsparraffooter'>
                 © 2024 Lorena Rodríguez. Todos los derechos reservados.
                 </p>
             </div>

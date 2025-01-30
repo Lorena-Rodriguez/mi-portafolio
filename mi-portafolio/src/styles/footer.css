@@ -3,3 +3,36 @@
     height: 25%;
     background-color: #F6BDB4;
 }
+
+.footertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finaltextparraf {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #393941;
+}
+
+.logosfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.rightstextfooter {
+    display: flex;
+    justify-content: end;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.rightsparraffooter {
+    font-weight: 400;
+    font-size: smaller;
+}
