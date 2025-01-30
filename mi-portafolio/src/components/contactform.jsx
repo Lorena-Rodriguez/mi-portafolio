@@ -1,15 +1,18 @@
 import '../styles/contactform.css';
 import { useState } from 'react';
+import emailjs from "@emailjs/browser";
 
-function ContactForm () {
+const ContactForm = () => {
     const initialState = {
         nombre: "",
         apellidos: "",
         empresa: "",
         asunto: "",
         mensaje: "",
-        };
-        const [formData, setFormData] = useState(initialState);
+    };
+    const [formData, setFormData] = useState(initialState);
+    const [mensajeEnviado, setMensajeEnviado] = useState(false);
+    
         const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
         };
@@ -17,13 +20,38 @@ function ContactForm () {
         const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Formulario enviado:", formData);
-        // Aquí puedes integrar EmailJS o enviarlo a un backend
+        
+    // Configuración de EmailJS
+        
+    const serviceID = "service_u56h50k"; // Reemplázalo con tu Service ID
+    const templateID = "template_mhs1npu"; // Reemplázalo con tu Template ID
+    const publicKey = "NslgSk8WfS_kY8AGX"; // Reemplázalo con tu Public Key
 
-        setFormData(initialState);
+    emailjs
+      .send(serviceID, templateID, formData, publicKey)
+      .then(() => {
+        console.log("Correo enviado con éxito");
+        setMensajeEnviado(true);
+        setFormData(initialState); // 🔄 Limpiar el formulario
+      })
+      .catch((error) => {
+        console.error("Error al enviar el correo:", error);
+      });
 
-        };
+      if (mensajeEnviado) {
+        setFormData(initialState);  // Restablecer el formulario a su estado inicial
+    }
+
+  };
+
+
+
+
+
+
     return (
         <form onSubmit={handleSubmit} className="p-4 max-w-md mx-auto bg-white rounded-lg shadow-md">
+      {mensajeEnviado && <p className="text-green-600">✅ Mensaje enviado con éxito.</p>}
         <label className="block mb-2">Nombre:</label>
         <input
             type="text"
@@ -74,6 +102,6 @@ function ContactForm () {
         </button>
         </form>
     );
-};
+}
 
 export default ContactForm;
