@@ -22,27 +22,27 @@ const ContactForm = () => {
         console.log("Formulario enviado:", formData);
         
     // Configuración de EmailJS
-        
-    const serviceID = "service_u56h50k"; // Reemplázalo con tu Service ID
-    const templateID = "template_mhs1npu"; // Reemplázalo con tu Template ID
-    const publicKey = "NslgSk8WfS_kY8AGX"; // Reemplázalo con tu Public Key
+
+    const serviceID = "service_u56h50k"; 
+    const templateID = "template_mhs1npu";
+    const publicKey = "NslgSk8WfS_kY8AGX";
 
     emailjs
-      .send(serviceID, templateID, formData, publicKey)
-      .then(() => {
+        .send(serviceID, templateID, formData, publicKey)
+        .then(() => {
         console.log("Correo enviado con éxito");
         setMensajeEnviado(true);
-        setFormData(initialState); // 🔄 Limpiar el formulario
-      })
-      .catch((error) => {
+        setFormData(initialState);
+        })
+        .catch((error) => {
         console.error("Error al enviar el correo:", error);
-      });
+        });
 
-      if (mensajeEnviado) {
-        setFormData(initialState);  // Restablecer el formulario a su estado inicial
+        if (mensajeEnviado) {
+        setFormData(initialState);
     }
 
-  };
+    };
 
 
 
