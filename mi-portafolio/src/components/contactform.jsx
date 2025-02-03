@@ -50,57 +50,75 @@ const ContactForm = () => {
 
 
     return (
-        <form onSubmit={handleSubmit} className="p-4 max-w-md mx-auto bg-white rounded-lg shadow-md">
-      {mensajeEnviado && <p className="text-green-600">✅ Mensaje enviado con éxito.</p>}
-        <label className="block mb-2">Nombre:</label>
+<div>
+        <div className='titleblockcontact'>
+        <p className='titletextcontact'>Contacto</p>
+    </div>
+
+        <div className='formcontainer'>
+
+        <form onSubmit={handleSubmit} className='form'>
+        {mensajeEnviado && <p >✅ Mensaje enviado con éxito.</p>}
+        <div className='inputsblocks'>
+        <label >Nombre:</label>
         <input
             type="text"
             name="nombre"
             value={formData.nombre}
             onChange={handleChange}
-            className="w-full p-2 border rounded mb-3"
+            className='inputsclass'
         />
-
-        <label className="block mb-2">Apellidos:</label>
+        </div>
+        <div className='inputsblocks'>
+        <label >Apellidos:</label>
         <input
             type="text"
             name="apellidos"
             value={formData.apellidos}
             onChange={handleChange}
-            className="w-full p-2 border rounded mb-3"
+            className='inputsclass'
         />
+        </div>
 
-        <label className="block mb-2">Empresa:</label>
+        <div className='inputsblocks'>
+        <label >Empresa:</label>
         <input
             type="text"
             name="empresa"
             value={formData.empresa}
             onChange={handleChange}
-            className="w-full p-2 border rounded mb-3"
+            className='inputsclass'
         />
+        </div>
 
-        <label className="block mb-2">Asunto:</label>
+        <div className='inputsblocks'>
+        <label >Asunto:</label>
         <input
             type="text"
             name="asunto"
             value={formData.asunto}
             onChange={handleChange}
-            className="w-full p-2 border rounded mb-3"
+            className='inputsclass'
         />
+        </div>
 
-        <label className="block mb-2">Mensaje:</label>
-        <textarea
+        <div className='inputsblocks'>
+        <label >Mensaje:</label>
+        <textarea 
             name="mensaje"
             value={formData.mensaje}
             onChange={handleChange}
-            className="w-full p-2 border rounded mb-3"
-            rows="4"
+            className='inputsclass'
         />
+        </div>
 
-        <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+
+        <button type="submit" >
             Enviar
         </button>
         </form>
+        </div>
+        </div>
     );
 }
 
