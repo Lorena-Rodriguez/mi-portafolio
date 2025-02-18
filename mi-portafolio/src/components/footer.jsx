@@ -9,16 +9,16 @@ function Footer () {
         <div className='footer'>
             <div className='footertext'>
             <p className='finaltextparraf'>
-                •  Desarrolladora web especializada en Frontend  •
+                •  Desarrolladora web Frontend  •
             </p>
             <p>
                 Disponibilidad Inmediata
             </p>
             </div>
             <div className='logosfooter'>
-                <a href='https://www.linkedin.com/in/lorenarodriguezcortes/' target="_blank" rel="noopener noreferrer"> <img src={LinkedIn} /></a>
-                <a href='https://github.com/Lorena-Rodriguez' target="_blank" rel="noopener noreferrer"> <img src={FooterGitHub} /></a>
-                <img src={Contact} />
+                <a href='https://www.linkedin.com/in/lorenarodriguezcortes/' alt="LinkedIn" target="_blank" rel="noopener noreferrer"> <img src={LinkedIn} /></a>
+                <a href='https://github.com/Lorena-Rodriguez' alt="Github" target="_blank" rel="noopener noreferrer"> <img src={FooterGitHub} /></a>
+                <a href="mailto:lorenarodriguezc@gmail.com"><img src={Contact} alt="Enviar email" /></a>
             </div>
             <div className='rightstextfooter'>
                 <p className='rightsparraffooter'>

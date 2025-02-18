@@ -112,10 +112,12 @@ const ContactForm = () => {
         />
         </div>
 
-
-        <button type="submit" >
+        <div className='buttonformblock'>
+        <button type="submit" className='buttonform' >
             Enviar
         </button>
+        </div>
+
         </form>
         </div>
         </div>

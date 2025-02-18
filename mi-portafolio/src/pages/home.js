@@ -32,12 +32,10 @@ function Home () {
 
                 <div className='presentation'>
                     <p className='presentation-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec erat lacus. 
-                Suspendisse volutpat ultrices pretium. Etiam interdum id quam a bibendum. 
-                Sed tristique maximus leo, eget rutrum tortor. Proin at eros mi. 
-                Praesent sem lorem, luctus sed ullamcorper non, blandit at arcu. 
-                Quisque et mollis purus.Morbi fringilla fermentum ornare. Donec ut 
-                tellus bibendum, placerat neque at, elementum leo. Fusce id justo 
+                    Tras mi experiencia en la Maquetación Web doy un vuelco a mi carrera hacia el Desarrollo Web, 
+                    especializándome en Frontend (HTML5, CSS3, JavaScript, React). Actualmente me formo de manera 
+                    autodidacta continuamente. Me considero una persona detallista y creativa, que se adapta bien 
+                    en equipo, muy constante y comprometida con su trabajo.
                     </p>
                 </div>
                 
