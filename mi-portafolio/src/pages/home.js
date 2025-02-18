@@ -18,7 +18,7 @@ function Home () {
                     <a href='https://www.linkedin.com/in/lorenarodriguezcortes/' className='buttons-home'  target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href='https://github.com/Lorena-Rodriguez' className='buttons-home'  target="_blank" rel="noopener noreferrer">Github</a>
                     <a href='/cv2024.pdf' className='buttons-home'  target="_blank" rel="noopener noreferrer">CV</a>
-                    <a href='' className='buttons-home' target="_blank" rel="noopener noreferrer">Contacto</a>
+                    <a href='#contactform' className='buttons-home' rel="noopener noreferrer">Contacto</a>
                     </div>
 
                     <div className='textBox'>

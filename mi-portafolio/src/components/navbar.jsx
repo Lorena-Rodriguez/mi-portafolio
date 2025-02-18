@@ -19,7 +19,7 @@ function Navbar () {
         <a href='#project' className='buttons-navbar'  rel="noopener noreferrer">Proyectos</a>
         <a href='#stacks' className='buttons-navbar'  rel="noopener noreferrer">Stacks</a>
         <a href='#experience' className='buttons-navbar'   rel="noopener noreferrer">Experiencia</a>
-        <a href='' className='buttons-navbar' rel="noopener noreferrer">Formación</a>
+        <a href='#training' className='buttons-navbar' rel="noopener noreferrer">Formación</a>
     </div>
 
     </div>

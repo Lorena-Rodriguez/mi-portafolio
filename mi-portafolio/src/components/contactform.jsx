@@ -50,7 +50,7 @@ const ContactForm = () => {
 
 
     return (
-<div>
+<div id='contactform'>
         <div className='titleblockcontact'>
         <p className='titletextcontact'>Contacto</p>
     </div>
