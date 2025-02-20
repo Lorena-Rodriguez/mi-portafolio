@@ -41,6 +41,10 @@
     text-decoration: none;
 }
 
+.buttons-navbar:hover{
+    background-color: #FAA0A0;
+}
+
 .description-text-box {
     padding-right: 40%;
     padding-left: 5%;

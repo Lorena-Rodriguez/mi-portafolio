@@ -1,7 +1,8 @@
 import '../styles/navbar.css';
-import home_icon from '../assets/home_icon.svg'
+//import home_icon from '../assets/home_icon.svg'
 
 function Navbar () {
+
     return (
 
     <div className='navbar'>
