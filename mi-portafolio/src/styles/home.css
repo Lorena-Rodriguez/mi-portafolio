@@ -47,6 +47,10 @@
     color: #3A3A41;
 }
 
+.buttons-home:hover {
+    background-color: #B4BB9D;
+}
+
 .textBox{
     font-family: "Mooli", sans-serif;
     font-weight: 400;

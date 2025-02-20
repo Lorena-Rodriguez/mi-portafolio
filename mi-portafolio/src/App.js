@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar";
-import Home from "./pages/home";
+import Home from "./components/home";
 import Projects from "./components/projects";
 import Stacks from "./components/stacks";
 import Experience from "./components/experience";
