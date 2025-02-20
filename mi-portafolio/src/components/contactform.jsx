@@ -62,7 +62,7 @@ const ContactForm = () => {
         {mostrarModal && (
     <div className="modal">
         <div className="modal-content">
-            <p>✅ Mensaje enviado con éxito.</p>
+            <p>Mensaje enviado con éxito.</p>
             <button onClick={() => setMostrarModal(false)}>Cerrar</button>
         </div>
     </div>
