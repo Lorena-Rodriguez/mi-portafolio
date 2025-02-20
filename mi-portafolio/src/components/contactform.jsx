@@ -12,6 +12,8 @@ const ContactForm = () => {
     };
     const [formData, setFormData] = useState(initialState);
     const [mensajeEnviado, setMensajeEnviado] = useState(false);
+    const [mostrarModal, setMostrarModal] = useState(false);
+
     
         const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,9 +22,8 @@ const ContactForm = () => {
         const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Formulario enviado:", formData);
-        
-    // Configuración de EmailJS
 
+    // Configuración de EmailJS
     const serviceID = "service_u56h50k"; 
     const templateID = "template_mhs1npu";
     const publicKey = "NslgSk8WfS_kY8AGX";
@@ -31,7 +32,7 @@ const ContactForm = () => {
         .send(serviceID, templateID, formData, publicKey)
         .then(() => {
         console.log("Correo enviado con éxito");
-        setMensajeEnviado(true);
+        setMostrarModal(true);
         setFormData(initialState);
         })
         .catch((error) => {
@@ -58,7 +59,14 @@ const ContactForm = () => {
         <div className='formcontainer'>
 
         <form onSubmit={handleSubmit} className='form'>
-        {mensajeEnviado && <p >✅ Mensaje enviado con éxito.</p>}
+        {mostrarModal && (
+    <div className="modal">
+        <div className="modal-content">
+            <p>✅ Mensaje enviado con éxito.</p>
+            <button onClick={() => setMostrarModal(false)}>Cerrar</button>
+        </div>
+    </div>
+)}
         <div className='inputsblocks'>
         <label >Nombre:</label>
         <input
