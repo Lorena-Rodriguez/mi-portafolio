@@ -81,6 +81,12 @@ textarea.inputsclass:focus {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    color:#3A3A41;
+    font-weight: 500;
+}
+
+.buttonform:hover {
+    background-color: #FAA0A0;
 }
 
 .buttonformblock {
