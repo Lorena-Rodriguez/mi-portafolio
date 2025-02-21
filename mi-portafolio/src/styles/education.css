@@ -41,6 +41,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: first baseline;
+    padding-bottom: 3%;
 } 
 
 .leftcoursesblock, .rightcoursesblock {

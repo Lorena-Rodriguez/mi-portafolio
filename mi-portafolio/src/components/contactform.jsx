@@ -6,12 +6,11 @@ const ContactForm = () => {
     const initialState = {
         nombre: "",
         apellidos: "",
-        empresa: "",
+        email: "",
         asunto: "",
         mensaje: "",
     };
     const [formData, setFormData] = useState(initialState);
-    const [mensajeEnviado, setMensajeEnviado] = useState(false);
     const [mostrarModal, setMostrarModal] = useState(false);
 
     
@@ -38,17 +37,7 @@ const ContactForm = () => {
         .catch((error) => {
         console.error("Error al enviar el correo:", error);
         });
-
-        if (mensajeEnviado) {
-        setFormData(initialState);
-    }
-
     };
-
-
-
-
-
 
     return (
 <div id='contactform'>
@@ -75,6 +64,7 @@ const ContactForm = () => {
             value={formData.nombre}
             onChange={handleChange}
             className='inputsclass'
+            required
         />
         </div>
         <div className='inputsblocks'>
@@ -85,17 +75,19 @@ const ContactForm = () => {
             value={formData.apellidos}
             onChange={handleChange}
             className='inputsclass'
+            required
         />
         </div>
 
         <div className='inputsblocks'>
-        <label >Empresa:</label>
+        <label >Email:</label>
         <input
-            type="text"
-            name="empresa"
-            value={formData.empresa}
+            type="email"
+            name="email"
+            value={formData.email}
             onChange={handleChange}
             className='inputsclass'
+            required
         />
         </div>
 
@@ -107,6 +99,7 @@ const ContactForm = () => {
             value={formData.asunto}
             onChange={handleChange}
             className='inputsclass'
+            required
         />
         </div>
 
@@ -117,6 +110,7 @@ const ContactForm = () => {
             value={formData.mensaje}
             onChange={handleChange}
             className='inputsclass'
+            required
         />
         </div>
 
